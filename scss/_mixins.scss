@@ -1,0 +1,14 @@
+@mixin link-button {
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: none;
+    color: $body-wrapper-color;
+    padding: 16px 55px;
+    background: $button-color;
+    border-radius: 45px;
+    border: none;
+    @content;  
+}

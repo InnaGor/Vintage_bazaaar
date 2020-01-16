@@ -6,76 +6,116 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/normalize.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates&display=swap" rel="stylesheet">
     <title>VINTAGE BAZAAAR</title>
 </head>
 
 <body>
-    <header>
-        <div class="top-header">
+    <script src="./js/script.js"></script>
+    <div class="body-wrapper">
+        <header>
 
-            <div class="lang"><span>ua</span></div>
-        </div>
-        <img src="./imgs/01logo.svg" alt="logo" class="logo">
-        <div class="title">
-            <h1>ДРУГЕ <span class="light-color">ЖИТТЯ ОДЯГ</span>У <span class="dark-color">INSTAGRAM</span></h1>
-            <a href="https://www.instagram.com/vintage_bazaaar/?hl=uk">ДОЛУЧИТИСЬ</a>
-        </div>
-
-    </header>
-    <main>
-        <section id="about_us">
-            <div class="about_us__images">
-                <img src="./imgs/12phone.png" alt="Marys blog">
-                <img src="./imgs/13phone.png" alt="insta-page">
-            </div>
-            <h1>#ABOUT US</h1>
-            <div class="text">
-                <p>Бажання творити добро та приносити користь планеті в Марії зародилося ще багато років тому.⠀</p>
-                <p>Її потенціал та внутрішній вогонь надихають створювати проекти, які роблять наш світ краще.</p>
-                <p>Забруднення навколишнього середовища через текстильні відходи - найважливіша причина, чому з’явився
-                    VINTAGE BAZAAAR, новаторський магазин на платформі еко-блогу.</p>
-            </div>
-        </section>
-        <section class="eco_goal">
-            <h1>#ECO GOAL</h1>
-            <div class="eco-goal__p1">
-                <p>Головна мета бренду - дати другий шанс речам, які, рано чи пізно, будуть на смітнику.
-                    Тому віднині, вони, разом з вами, розвантажать ваш гардероб та допоможуть дати нове життя старому
-                    одягу!</p>
-            </div>
-            <img src="./imgs/32 eco-goal.png" alt="">
-            <p>У VINTAGE BAZAAAR Ви зрозумієте, що таке свідоме споживання та як його застосовувати у світі швидкої
-                моди.
-                Ви відчуєте, що таке справжній стиль з турботою про навколишнє середовище.</p>
-        </section>
-        <section id="style">
-            <div class="style-wrapper">
-                <img src="./imgs/42style.png" alt="lady">
-                <div class="style-text">
-                    <h1>#STYLE</h1>
-                    <p>Найголовніше – Ви можете продати свій одяг або придбати бажану річ гарної якості в
-                        онлайн-магазині
-                        @vintage_bazaaar, щоб не викидати тисячі гривень у смітник.</p>
+            <img src="./imgs/01logo.svg" alt="logo" class="logo">
+            <div class="header-text">
+                <div class="lang">
+                    <span onclick="changeLanguage('uk')">ua</span>
+                    <span onclick="changeLanguage('ru')">ru</span>
+                    <span onclick="changeLanguage('en')">en</span>
+                </div>
+                <div class="title">
+                    <h1>
+                        <script>__("MAIN_HEADER")</script>
+                    </h1>
+                    <a href="https://www.instagram.com/vintage_bazaaar/?hl=uk">
+                        <script>__("JOIN")</script></a>
                 </div>
             </div>
-            <div class="style-wrapper2">
-                <img src="./imgs/43style.png" alt="phone screen">
-                <img src="./imgs/44style.png" alt="phone screen">
-                <img src="./imgs/45style.png" alt="phone screen">
-            </div>
-        </section>
-        <section id="contacts">
-            <div class="contacts-wrapper">
-                <h1>#CONTACTS</h1>
-                <h3>Долучитись до нас в Instagram </h3>
-                <a href="https://www.instagram.com/vintage_bazaaar/?hl=uk">ДОЛУЧИТИСЬ</a>
-                <h4>або</h4>
-                <h3>Напишіть нам</h3>
-            </div>
-        </section>
 
-    </main>
+        </header>
+        <main>
+            <section id="about_us">
+                <div class="about_us__images">
+                    <img src="./imgs/12phone.png" alt="Marys blog">
+                    <img src="./imgs/13phone.png" alt="insta-page">
+                </div>
+                <div class="about-us_text">
+                    <h1>#ABOUT US</h1>
+                    <div class="about-us_paragraphs">
+                        <p> ⠀
+                            <script>__("ABOUT_US_P1")</script>
+                        </p>
+                        <p>
+                            <script>__("ABOUT_US_P2")</script>
+                        </p>
+                        <p>
+                            <script>__("ABOUT_US_P3")</script>
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section class="eco-goal">
+                <div class="eco-goal__block1">
+                    <h1>#ECO GOAL</h1>
+                    <p>
+                        <script>__("ECO_GOAL")</script>
+                    </p>
+                </div>
+
+                <div class="eco-goal__block2">
+                    <p>
+                        <script>__("MAIN_GOAL")</script>
+                    </p>
+                    <img src="./imgs/32eco-goal.png" alt="lady">
+                </div>
+            </section>
+            <section id="style">
+                <div class="style-wrapper1">
+                    <img src="./imgs/42style.png" alt="lady">
+                    <div class="style-text">
+                        <h1>#STYLE</h1>
+                        <p>
+                            <script>__("STYLE")</script>
+                        </p>
+                    </div>
+                </div>
+                <div class="style-wrapper2">
+                    <img src="./imgs/43style.png" alt="phone screen">
+                    <img src="./imgs/44style.png" alt="phone screen">
+                    <img src="./imgs/45style.png" alt="phone screen">
+                </div>
+            </section>
+            <section id="contacts">
+                <h1>#CONTACTS</h1>
+                <div class="contacts-wrapper">
+
+                    <h3>
+                        <script>__("CONTACTS1")</script>
+                    </h3>
+                    <a href="https://www.instagram.com/vintage_bazaaar/?hl=uk" target="_blank">
+                        <script>__("JOIN")</script></a>
+                    <h4>
+                        <script>__("OR")</script>
+                    </h4>
+                    <h3>
+                        <p>
+                            <script>__("TEXT_US")</script>
+                        </p>
+                    </h3>
+                    <form action="">
+                        <input type="text" placeholder="ВАШЕ ІМ’Я">
+                        <input type="email" id="email" placeholder="email">
+                        <textarea name="" id="textarea" cols="80" rows="10" placeholder="ВАШЕ ПОВІДОМЛЕННЯ"></textarea>
+                        <button type="submit">
+                            <script>__("SUBMIT")</script></button>
+                        <footer>@ Made by LULU, 2019</footer>
+                    </form>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
 </body>
 
 </html>
