@@ -29,7 +29,7 @@ let lang = {
         TEXT_US: 'Напишите нам',
         NAME: 'ВАШЕ ИМЯ',
         MESSAGE: 'ВАШЕ СООБЩЕНИЕ',
-        SUBMIT: 'ОТОСЛАТЬ',
+        SUBMIT: 'ОТПРАВИТЬ',
     },
     en: {
         MAIN_HEADER: 'THE SECOND <span class="light">LIFE OF CLOTHING</span><br> IN <span class="dark">INSTAGRAM</span>',

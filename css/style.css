@@ -21,17 +21,14 @@ header {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  background-image: url(../imgs/02Vector.svg);
+  background-position: right;
+  background-repeat: no-repeat;
 }
 
 header .logo {
   margin-top: 193px;
   margin-left: 180px;
-}
-
-header .header-text {
-  background-image: url(../imgs/02Vector.svg);
-  background-position: right;
-  background-repeat: no-repeat;
 }
 
 header .header-text .lang {
@@ -117,11 +114,13 @@ header .header-text a {
 
 .about_us__images img:first-child {
   margin-bottom: 150px;
+  max-height: 677px;
 }
 
 .about_us__images img:last-child {
   margin-top: 150px;
   margin-left: -80px;
+  max-height: 677px;
 }
 
 .about-us_text {
@@ -168,13 +167,23 @@ header .header-text a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-image: url(../imgs/31Vector.svg);
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+
+.eco-goal__block1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  background-image: url(../imgs/31Vector.svg);
-  background-repeat: no-repeat;
-  background-position: right top;
 }
 
 .eco-goal__block1 h1 {
@@ -189,6 +198,31 @@ header .header-text a {
 }
 
 .eco-goal__block1 p {
+  margin-right: 60px;
+  margin-top: 240px;
+  width: 572px;
+  font-family: Montserrat Alternates;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 34px;
+  color: #F2EFE9;
+}
+
+.eco-goal__block2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.eco-goal__block2 p {
   margin-top: 253px;
   margin-left: 81px;
   width: 665px;
@@ -199,18 +233,6 @@ header .header-text a {
   line-height: 38px;
   text-align: center;
   color: #4F453A;
-}
-
-.eco-goal__block2 p {
-  margin-right: 60px;
-  margin-top: 240px;
-  width: 572px;
-  font-family: Montserrat Alternates;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 28px;
-  line-height: 34px;
-  color: #F2EFE9;
 }
 
 .eco-goal__block2 img {

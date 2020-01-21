@@ -1,0 +1,365 @@
+@media screen and (max-width: 1357px) {
+  .about_us__images, .about-us_text, .about-us_text h1 {
+    margin-top: 0;
+  }
+  .about-us_text h1 {
+    width: 600px;
+  }
+  .style-wrapper1 img {
+    max-height: 525px;
+  }
+  form footer {
+    color: #606060;
+  }
+}
+
+@media screen and (max-width: 1234px) {
+  header {
+    padding-bottom: 100px;
+  }
+  header .logo {
+    margin-top: 93px;
+    margin-left: 80px;
+  }
+  #about_us {
+    margin-top: 0;
+  }
+  .about_us__images {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+    margin-left: -60px;
+  }
+}
+
+@media screen and (max-width: 1160px) {
+  .about-us_text {
+    margin-left: -15em;
+    width: 50%;
+  }
+  .about-us_text h1 {
+    width: 450px;
+    font-size: 70px;
+  }
+  .about-us_text .about-us_paragraphs {
+    margin-top: 0;
+  }
+  .about-us_text .about-us_paragraphs p {
+    font-size: 22px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (max-width: 1060px) {
+  header .header-text .title {
+    margin-right: 0px;
+  }
+  .about-us_text {
+    margin-right: 50px;
+  }
+  .eco-goal__block2 img {
+    max-height: 509px;
+  }
+}
+
+@media screen and (max-width: 970px) {
+  .style-text h1 {
+    margin-right: 30px;
+    font-size: 114px;
+    line-height: 156px;
+  }
+  .style-text p {
+    margin-top: 0px;
+    margin-right: 15%;
+  }
+  .style-wrapper2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    -webkit-transform: scale(0.6);
+            transform: scale(0.6);
+  }
+  #contacts h1 {
+    padding-top: 26px;
+    font-size: 114px;
+    text-align: center;
+  }
+  .contacts-wrapper h4 {
+    color: #716237;
+  }
+}
+
+@media screen and (max-width: 910px) {
+  #about_us .about_us__images {
+    margin-left: 0;
+  }
+  #about_us .about_us__images img:first-child {
+    display: none;
+  }
+  #about_us .about_us__images img:last-child {
+    margin-top: 40px;
+    margin-left: 0px;
+  }
+  #about_us .about-us_text {
+    width: 65%;
+  }
+}
+
+@media screen and (max-width: 875px) {
+  .body-wrapper {
+    margin: 0 auto;
+  }
+  header .logo {
+    margin-top: 2vh;
+    margin-left: 0;
+    width: 40%;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+  }
+  header .title {
+    margin-top: 30vh;
+  }
+  .eco-goal__block1 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .eco-goal__block1 h1 {
+    margin: 100px auto 0;
+    font-size: 104px;
+    line-height: 126px;
+  }
+  .eco-goal__block1 p {
+    margin-left: 20vw;
+    margin-right: 0;
+    margin-top: 0;
+    width: 80%;
+  }
+  .eco-goal__block2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .eco-goal__block2 p {
+    margin: 15px auto;
+    width: 80vw;
+  }
+  .eco-goal__block2 img {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+  }
+  .style-wrapper1 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .style-wrapper1 img {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .style-wrapper1 .style-text p {
+    margin-left: 25px;
+  }
+  .style-wrapper2 {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  #contacts h1 {
+    font-size: 80px;
+  }
+  .contacts-wrapper h3 {
+    margin-top: 20px;
+    font-size: 38px;
+  }
+  .contacts-wrapper h3 span {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  form input, textarea {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .logo {
+    position: absolute;
+  }
+  .header-text {
+    width: 100%;
+    position: relative;
+  }
+  .header-text h1 {
+    margin-bottom: 50px;
+  }
+  header .header-text .lang {
+    margin-right: 72px;
+  }
+  header .header-text .lang span {
+    font-size: 40px;
+    margin-right: 10px;
+  }
+  #about_us {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: 5vh;
+  }
+  #about_us .about_us__images {
+    width: 60%;
+    margin-left: -55vw;
+  }
+  #about_us .about_us__images img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+  #about_us .about_us__images img:first-child {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 0;
+  }
+  #about_us .about-us_text {
+    width: 90%;
+    margin: 0;
+  }
+  #about_us .about-us_text .about-us_paragraphs {
+    padding-left: 0;
+  }
+  .style-wrapper2 {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .style-wrapper2 img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+  #contacts h1 {
+    font-size: 65px;
+    line-height: 85px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .about-us_text h1 {
+    width: 90%;
+    font-size: 55px;
+  }
+  .style-text h1 {
+    font-size: 84px;
+  }
+  #contacts h1 {
+    padding-top: 36px;
+    font-size: 55px;
+    line-height: 76px;
+  }
+  #contacts .contacts-wrapper h3 {
+    margin: 20px 10vw;
+    text-align: center;
+  }
+  #contacts .contacts-wrapper h4 {
+    margin-top: 3vh;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  header .header-text .lang {
+    margin-right: 4vh;
+  }
+  header .header-text .title {
+    margin-top: 30vh;
+  }
+  .about-us_text h1 {
+    line-height: 57px;
+    font-size: 40px;
+  }
+  .eco-goal__block1 h1 {
+    margin: 2vh auto 0;
+    margin-left: 10px;
+    font-size: 74px;
+    line-height: 96px;
+  }
+  .eco-goal__block1 p {
+    width: 85%;
+    margin: 0 auto;
+    font-size: 26px;
+  }
+  .style-wrapper1 img {
+    width: 85%;
+  }
+  .eco-goal__block2 p {
+    width: 85vw;
+  }
+  .style-wrapper1 .style-text p {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  header .logo {
+    margin-top: 15vh;
+  }
+  header .header-text .lang {
+    margin-right: 72px;
+  }
+  .about-us_text .about-us_paragraphs p {
+    font-size: 18px;
+  }
+  .eco-goal__block1 p {
+    font-size: 22px;
+  }
+  .eco-goal__block2 p {
+    font-size: 24px;
+    line-height: 32px;
+    width: 88vw;
+  }
+  #contacts h1 {
+    font-size: 45px;
+  }
+  .contacts-wrapper h3 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  form input:first-child {
+    margin-top: 0px;
+  }
+  form footer {
+    text-align: center;
+  }
+  form button {
+    margin-bottom: 80px;
+  }
+}
+/*# sourceMappingURL=media-quaries.css.map */
