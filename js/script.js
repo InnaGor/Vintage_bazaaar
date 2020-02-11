@@ -63,4 +63,7 @@ function getLanguage() {
 }
 function __(key) {
     document.write(lang[getLanguage()][key]);
+    document.getElementById("name").placeholder = lang[getLanguage()]["NAME"];
+    document.getElementById("textarea").placeholder = lang[getLanguage()]["MESSAGE"];
 }
+
